@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId":
+        "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/wzrastaj-api-AI",
+      "type": "appInsights.azure",
+      "connectionId": "APPINSIGHTS_INSTRUMENTATIONKEY",
+      "secretStore": null
+    },
+    "mssql1": {
+      "resourceId":
+        "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/wzrastajsqlserver/databases/WzrastajDB",
+      "type": "mssql.azure",
+      "connectionId": "Default",
+      "secretStore": null
+    }
+  }
+}
