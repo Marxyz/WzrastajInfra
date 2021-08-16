@@ -455,3 +455,6 @@ pnpm-debug.log*
 .DS_Store
 node_modules
 /dist
+
+infrastructure\appsettings.json
+infrastructure\appsettings.Development.json
